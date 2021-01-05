@@ -11,7 +11,10 @@ try:
                           VALUES
                             (1,'Camera',850.00,5),
                             (2,'Monitor',630.00,7),
-                            (3,'Relógio',575.00,10)
+                            (3,'Relógio',575.00,10),
+                            (4,'Camera',850.00,5),
+                            (5,'Monitor',630.00,7),
+                            (6,'Relógio',575.00,10)
                        """
     cursor = con.cursor()
     cursor.execute(inserir_produtos)
